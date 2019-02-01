@@ -1,0 +1,16 @@
+{
+  "name": "blog-dialogflow-api",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "runtime": "nodejs8.10",
+  "handler": "index.handler",
+  "role": "arn:aws:iam::xxxxxx:role/blog-dialogflow-api_lambda_function",
+  "environment": {
+    "PROJECT_ID": "xxxxxxx",
+    "CLIENT_EMAIL": "xxxxxxx",
+    "PRIVATE_KEY": "xxxxxxx",
+    "CHANNEL_ACCESS_TOKEN": "xxxxxxx",
+    "CHANNEL_SECRET": "xxxxxxx"
+  }
+}
